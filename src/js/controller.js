@@ -35,6 +35,8 @@ const controlRecipes = async function () {
   }
 };
 
+console.log('new branch');
+
 const controlSearchResults = async function () {
   try {
     resultsView.renderSpinner();
